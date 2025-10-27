@@ -1,0 +1,11 @@
+command_id: D01A.224028|ta=01,fc=1,c=1D
+test_cases:
+- expected_values:
+    VOLVO_SOC: 5.2
+  response: 1EC6AE800762402800345D49
+- expected_values:
+    VOLVO_SOC: 85.3
+  response: 1F402E80056240280355
+- expected_values:
+    VOLVO_SOC: 87.1
+  response: 1F402E80056240280367
