@@ -72,3 +72,5 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   "D016":
   - D016.22EE6F|ta=30,fc=1,c=1D:VOLVO_APP_POS
+  "DB33":
+  - DB33.0111:TP
