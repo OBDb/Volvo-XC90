@@ -4,6 +4,9 @@ test_cases:
     VOLVO_SOC: 5.2
   response: 1EC6AE800762402800345D49
 - expected_values:
+    VOLVO_SOC: 84.6
+  response: 1F402E8005624028034E
+- expected_values:
     VOLVO_SOC: 85.3
   response: 1F402E80056240280355
 - expected_values:
