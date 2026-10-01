@@ -1,4 +1,10 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0",  "type": "engine" },
+    { "hdr": "7E1",  "type": "transmission" },
+    { "hdr": "DA10", "type": "engine" },
+    { "hdr": "DA18", "type": "transmission" }
+  ],
+  "commands": [
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "033E"}, "freq": 1, "filter": { "from": 2016, "to": 2021 },
   "signals": [
     {"id": "XC90_BOOST_P_AFTER", "path": "Battery", "fmt": { "len": 16, "max": 500, "min": -0.0534, "div": 131, "add": -0.053435, "unit": "kilopascal" }, "name": "Boost pressure after turbocharger"}
