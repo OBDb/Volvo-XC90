@@ -10,5 +10,5 @@ test_cases:
     CLR_DIST: 256
   response: 18DAF1100441310100
 - expected_values:
-    CLR_DIST: 9893
-  response: 18DAF11004413126A5
+    CLR_DIST: 10240
+  response: 18DAF1100441312800
