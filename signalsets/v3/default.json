@@ -489,19 +489,19 @@
   "signals": [
     {"id": "XC90_BRAKE_PEDAL_POS", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake pedal position"}
   ]},
-{ "hdr": "D016", "rax": "1EC60E80", "pri": "1D", "tst": "30", "fcm1": true, "cmd": {"22": "033E"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "D016", "rax": "1EC60E80", "pri": "1D", "tst": "30", "fcm1": true, "cmd": {"22": "033E"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "XC90_BOOST_AIR_P_AFTER", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilopascal" }, "name": "Boost air pressure after turbocharger"}
   ]},
-{ "hdr": "D016", "rax": "1EC60E80", "pri": "1D", "tst": "30", "fcm1": true, "cmd": {"22": "0341"}, "freq": 5, "filter": { "from": 2016 }, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "D016", "rax": "1EC60E80", "pri": "1D", "tst": "30", "fcm1": true, "cmd": {"22": "0341"}, "freq": 5, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "XC90_BOOST_AIR_T", "path": "Engine", "fmt": { "len": 8, "max": 119, "min": -40, "mul": 5, "div": 8, "add": -40, "unit": "celsius" }, "name": "Boost air temperature"}
   ]},
-{ "hdr": "D016", "rax": "1EC60E80", "pri": "1D", "tst": "30", "fcm1": true, "cmd": {"22": "D9EE"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "D016", "rax": "1EC60E80", "pri": "1D", "tst": "30", "fcm1": true, "cmd": {"22": "D9EE"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "XC90_TURBO_BYPASS_VLV", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Turbo bypass valve opened"}
   ]},
-{ "hdr": "D016", "rax": "1EC60E80", "pri": "1D", "tst": "30", "fcm1": true, "cmd": {"22": "DC80"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "D016", "rax": "1EC60E80", "pri": "1D", "tst": "30", "fcm1": true, "cmd": {"22": "DC80"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "XC90_WASTEGATE_POS", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Wastegate position"}
   ]},
@@ -676,39 +676,39 @@
   "signals": [
     {"id": "XC90_DEM_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Total distance", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "D018", "rax": "1F002E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "D903"}, "freq": 30, "filter": { "from": 2016 }, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "D018", "rax": "1F002E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "D903"}, "freq": 30, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "XC90_DIST_SINCE_SERVICE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since last service"}
   ]},
-{ "hdr": "D018", "rax": "1F002E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "D906"}, "freq": 30, "filter": { "from": 2016 }, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "D018", "rax": "1F002E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "D906"}, "freq": 30, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "XC90_ODO_LAST_SERVICE", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer at last service"}
   ]},
-{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "4025"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "4025"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "XC90_AVG_STATIC_LOW_RANGE", "path": "Battery", "fmt": { "len": 16, "max": 65024, "min": -511, "add": -511, "unit": "milliamps" }, "name": "Average static low range battery current"}
   ]},
-{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "4028"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "4028"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "XC90_BAT_ST_CHG", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "percent" }, "name": "Battery state of charge"}
   ]},
-{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "4090"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "4090"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "XC90_BAT_CURRENT", "path": "Battery", "fmt": { "len": 16, "max": 3583, "min": -512, "div": 16, "add": -512, "unit": "amps" }, "name": "Battery current"}
   ]},
-{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "40CD"}, "freq": 5, "filter": { "from": 2016 }, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "40CD"}, "freq": 5, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "XC90_BAT_V", "path": "Battery", "fmt": { "len": 16, "max": 1643, "div": 40, "add": 5, "unit": "volts" }, "name": "Battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "40D3"}, "freq": 5, "filter": { "from": 2016 }, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "40D3"}, "freq": 5, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "XC90_AUXILIARY_BAT_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Auxiliary battery temperature"}
   ]},
-{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "4112"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "4112"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "XC90_AUXILIARY_BAT", "path": "Battery", "fmt": { "len": 8, "max": 128, "min": -127, "add": -127, "unit": "amps" }, "name": "Auxiliary battery current"}
   ]},
-{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "417E"}, "freq": 5, "filter": { "from": 2016 }, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "417E"}, "freq": 5, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "XC90_AUXILIARY_BAT_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Auxiliary battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
