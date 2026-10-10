@@ -1,0 +1,29 @@
+command_id: 7E1.22DD01|f=2016-2021
+test_cases:
+- expected_values:
+    XC90_ODO_TCM: 169188
+  response: 1EC64E800662DD010294E4
+- expected_values:
+    XC90_ODO_TCM: 169189
+  response: 1EC64E800662DD010294E5
+- expected_values:
+    XC90_ODO_TCM: 169204
+  response: 1EC64E800662DD010294F4
+- expected_values:
+    XC90_ODO_TCM: 169205
+  response: 1EC64E800662DD010294F5
+- expected_values:
+    XC90_ODO_TCM: 169223
+  response: 1EC64E800662DD01029507
+- expected_values:
+    XC90_ODO_TCM: 169257
+  response: 1EC64E800662DD01029529
+- expected_values:
+    XC90_ODO_TCM: 169258
+  response: 1EC64E800662DD0102952A
+- expected_values:
+    XC90_ODO_TCM: 169268
+  response: 1EC64E800662DD01029534
+- expected_values:
+    XC90_ODO_TCM: 169271
+  response: 1EC64E800662DD01029537

@@ -1,0 +1,11 @@
+command_id: 7E1.22DA34|f=2016-2021
+test_cases:
+- expected_values:
+    XC90_GEAR_RAT_ACT_7E1: 0.1084
+  response: 1EC64E800562DA3401BC
+- expected_values:
+    XC90_GEAR_RAT_ACT_7E1: 1.95093
+  response: 1EC64E800562DA341F37
+- expected_values:
+    XC90_GEAR_RAT_ACT_7E1: 15.99
+  response: 1EC64E800562DA34FFFF
