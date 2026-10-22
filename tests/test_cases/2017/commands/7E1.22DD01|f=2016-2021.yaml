@@ -1,0 +1,11 @@
+command_id: 7E1.22DD01|f=2016-2021
+test_cases:
+- expected_values:
+    XC90_ODO_TCM: 169188
+  response: 1EC64E800662DD010294E4
+- expected_values:
+    XC90_ODO_TCM: 169205
+  response: 1EC64E800662DD010294F5
+- expected_values:
+    XC90_ODO_TCM: 169223
+  response: 1EC64E800662DD01029507
