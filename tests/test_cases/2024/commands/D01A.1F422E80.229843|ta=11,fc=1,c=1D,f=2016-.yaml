@@ -1,0 +1,14 @@
+command_id: D01A.1F422E80.229843|ta=11,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_INTERIOR_T: 19.2
+  response: 1F422E8005629843633C
+- expected_values:
+    XC90_INTERIOR_T: 19.2
+  response: 1F422E800562984363FC
+- expected_values:
+    XC90_INTERIOR_T: 24
+  response: 1F422E80056298436908
+- expected_values:
+    XC90_INTERIOR_T: 26.4
+  response: 1F422E80056298436C48

@@ -1,0 +1,11 @@
+command_id: D016.1EC60E80.22DC80|ta=30,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_WASTEGATE_POS: 0
+  response: 1EC60E800462DC8000
+- expected_values:
+    XC90_WASTEGATE_POS: 93.33333
+  response: 1EC60E800462DC80EE
+- expected_values:
+    XC90_WASTEGATE_POS: 100
+  response: 1EC60E800462DC80FF

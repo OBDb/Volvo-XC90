@@ -1,0 +1,26 @@
+command_id: D016.1EC64E80.22DA47|ta=32,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_GEAR_RAT_REQ: 0.661
+  response: 1EC64E800562DA470295
+- expected_values:
+    XC90_GEAR_RAT_REQ: 0.792
+  response: 1EC64E800562DA470318
+- expected_values:
+    XC90_GEAR_RAT_REQ: 1
+  response: 1EC64E800562DA4703E8
+- expected_values:
+    XC90_GEAR_RAT_REQ: 1.262
+  response: 1EC64E800562DA4704EE
+- expected_values:
+    XC90_GEAR_RAT_REQ: 1.52
+  response: 1EC64E800562DA4705F0
+- expected_values:
+    XC90_GEAR_RAT_REQ: 2.05
+  response: 1EC64E800562DA470802
+- expected_values:
+    XC90_GEAR_RAT_REQ: 3.07
+  response: 1EC64E800562DA470BFE
+- expected_values:
+    XC90_GEAR_RAT_REQ: 5.057
+  response: 1EC64E800562DA4713C1

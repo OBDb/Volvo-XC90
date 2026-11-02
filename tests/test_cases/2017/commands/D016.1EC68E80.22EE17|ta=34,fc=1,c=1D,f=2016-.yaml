@@ -1,0 +1,11 @@
+command_id: D016.1EC68E80.22EE17|ta=34,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_DC_CHARGER_V: 325
+  response: 1EC68E800562EE170CB2
+- expected_values:
+    XC90_DC_CHARGER_V: 383.4
+  response: 1EC68E800562EE170EFA
+- expected_values:
+    XC90_DC_CHARGER_V: 384.1
+  response: 1EC68E800562EE170F01
