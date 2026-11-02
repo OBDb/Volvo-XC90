@@ -1,0 +1,11 @@
+command_id: D016.1EC70E80.221946|ta=38,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_MODULE_CURRENT: 0
+  response: 1EC70E80056219460000
+- expected_values:
+    XC90_MODULE_CURRENT: 511
+  response: 1EC70E800562194601FF
+- expected_values:
+    XC90_MODULE_CURRENT: 2220
+  response: 1EC70E800562194608AC

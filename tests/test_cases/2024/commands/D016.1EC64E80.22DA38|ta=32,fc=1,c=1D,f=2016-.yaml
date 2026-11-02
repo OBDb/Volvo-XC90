@@ -1,0 +1,11 @@
+command_id: D016.1EC64E80.22DA38|ta=32,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_DRIVEN_SHFT_SPD: 0
+  response: 1EC64E800562DA380000
+- expected_values:
+    XC90_DRIVEN_SHFT_SPD: 2303
+  response: 1EC64E800562DA3808FF
+- expected_values:
+    XC90_DRIVEN_SHFT_SPD: 3394
+  response: 1EC64E800562DA380D42

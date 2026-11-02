@@ -1,0 +1,7 @@
+command_id: D018.1F002E80.22D906|ta=01,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_ODO_LAST_SERVICE: 38865
+  response: |-
+    1F002E80100C62D9060097D1
+    1F002E80210595229502CD00

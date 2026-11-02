@@ -1,0 +1,14 @@
+command_id: D01A.1F422E80.224337|ta=11,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_HEAT_EXCHANGER_T_V_2: 3.2
+  response: 1F422E8006624337019484
+- expected_values:
+    XC90_HEAT_EXCHANGER_T_V_2: 16
+  response: 1F422E800662433705046C
+- expected_values:
+    XC90_HEAT_EXCHANGER_T_V_2: 16
+  response: 1F422E800662433705F464
+- expected_values:
+    XC90_HEAT_EXCHANGER_T_V_2: 54.4
+  response: 1F422E8006624337113424

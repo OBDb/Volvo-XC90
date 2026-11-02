@@ -1,0 +1,32 @@
+command_id: D016.1EC6AE80.224804|ta=35,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_HVBAT_INLET_ECT: 7
+  response: 1EC6AE800462480439
+- expected_values:
+    XC90_HVBAT_INLET_ECT: 10
+  response: 1EC6AE80046248043C
+- expected_values:
+    XC90_HVBAT_INLET_ECT: 11
+  response: 1EC6AE80046248043D
+- expected_values:
+    XC90_HVBAT_INLET_ECT: 13
+  response: 1EC6AE80046248043F
+- expected_values:
+    XC90_HVBAT_INLET_ECT: 16
+  response: 1EC6AE800462480442
+- expected_values:
+    XC90_HVBAT_INLET_ECT: 18
+  response: 1EC6AE800462480444
+- expected_values:
+    XC90_HVBAT_INLET_ECT: 19
+  response: 1EC6AE800462480445
+- expected_values:
+    XC90_HVBAT_INLET_ECT: 20
+  response: 1EC6AE800462480446
+- expected_values:
+    XC90_HVBAT_INLET_ECT: 22
+  response: 1EC6AE800462480448
+- expected_values:
+    XC90_HVBAT_INLET_ECT: 26
+  response: 1EC6AE80046248044C

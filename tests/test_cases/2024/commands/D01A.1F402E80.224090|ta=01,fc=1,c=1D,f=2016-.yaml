@@ -1,0 +1,14 @@
+command_id: D01A.1F402E80.224090|ta=01,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_BAT_CURRENT: -23.9375
+  response: 1F402E80056240901E81
+- expected_values:
+    XC90_BAT_CURRENT: -18.25
+  response: 1F402E80056240901EDC
+- expected_values:
+    XC90_BAT_CURRENT: 0.0625
+  response: 1F402E80056240902001
+- expected_values:
+    XC90_BAT_CURRENT: 38.875
+  response: 1F402E8005624090226E

@@ -1,0 +1,8 @@
+command_id: D016.1EC68E80.22EE19|ta=34,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_OBC_T: 8
+  response: 1EC68E800462EE1908
+- expected_values:
+    XC90_OBC_T: 36
+  response: 1EC68E800462EE1924

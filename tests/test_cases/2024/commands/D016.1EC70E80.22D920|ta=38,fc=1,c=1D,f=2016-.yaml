@@ -1,0 +1,11 @@
+command_id: D016.1EC70E80.22D920|ta=38,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_CLU_PMP_DUTY: 0
+  response: 1EC70E800562D9200000
+- expected_values:
+    XC90_CLU_PMP_DUTY: 3
+  response: 1EC70E800562D92003F8
+- expected_values:
+    XC90_CLU_PMP_DUTY: 5
+  response: 1EC70E800562D9200562

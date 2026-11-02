@@ -1,0 +1,29 @@
+command_id: D016.1EC64E80.22DA89|ta=32,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_ENG_TQ: 0
+  response: 1EC64E800562DA891400
+- expected_values:
+    XC90_ENG_TQ: 6
+  response: 1EC64E800562DA89143C
+- expected_values:
+    XC90_ENG_TQ: 8
+  response: 1EC64E800562DA891450
+- expected_values:
+    XC90_ENG_TQ: 28
+  response: 1EC64E800562DA891518
+- expected_values:
+    XC90_ENG_TQ: 29
+  response: 1EC64E800562DA891522
+- expected_values:
+    XC90_ENG_TQ: 30
+  response: 1EC64E800562DA89152C
+- expected_values:
+    XC90_ENG_TQ: 120
+  response: 1EC64E800562DA8918B0
+- expected_values:
+    XC90_ENG_TQ: 169
+  response: 1EC64E800562DA891A9A
+- expected_values:
+    XC90_ENG_TQ: 184
+  response: 1EC64E800562DA891B30

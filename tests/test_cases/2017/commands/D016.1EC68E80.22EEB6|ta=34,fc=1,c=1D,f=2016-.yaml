@@ -1,0 +1,5 @@
+command_id: D016.1EC68E80.22EEB6|ta=34,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_AVG_CHG_TIME_LEFT: 0
+  response: 1EC68E800562EEB60000
