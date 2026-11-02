@@ -1,0 +1,8 @@
+command_id: D016.1EC64E80.22DA3B|ta=32,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_ATF_T: 37
+  response: 1EC64E800562DA3B0025
+- expected_values:
+    XC90_ATF_T: 98
+  response: 1EC64E800562DA3B0062

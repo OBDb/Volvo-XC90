@@ -1,0 +1,14 @@
+command_id: D016.1EC6AE80.224801|ta=35,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_HVBAT_ST_CHG: 23.618
+  response: 1EC6AE80056248012E21
+- expected_values:
+    XC90_HVBAT_ST_CHG: 65.026
+  response: 1EC6AE80056248017F01
+- expected_values:
+    XC90_HVBAT_ST_CHG: 67.582
+  response: 1EC6AE800562480183FF
+- expected_values:
+    XC90_HVBAT_ST_CHG: 89.668
+  response: 1EC6AE8005624801AF22

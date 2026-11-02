@@ -1,0 +1,14 @@
+command_id: D016.1EC6AE80.22480B|ta=35,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_HVBAT_OBC_FUSE_V: 344.1
+  response: 1EC6AE800562480B866A
+- expected_values:
+    XC90_HVBAT_OBC_FUSE_V: 381.46
+  response: 1EC6AE800562480B9502
+- expected_values:
+    XC90_HVBAT_OBC_FUSE_V: 383.8
+  response: 1EC6AE800562480B95EC
+- expected_values:
+    XC90_HVBAT_OBC_FUSE_V: 389.96
+  response: 1EC6AE800562480B9854

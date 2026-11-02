@@ -1,0 +1,14 @@
+command_id: D016.1EC6AE80.224945|ta=35,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_HVBAT_MAX_T: 16.91
+  response: 1EC6AE8006624945011A23
+- expected_values:
+    XC90_HVBAT_MAX_T: 24.03
+  response: 1EC6AE8006624945011CEB
+- expected_values:
+    XC90_HVBAT_MAX_T: 25.21
+  response: 1EC6AE8006624945011D61
+- expected_values:
+    XC90_HVBAT_MAX_T: 14.03
+  response: 1EC6AE8006624945051903

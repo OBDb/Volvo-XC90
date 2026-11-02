@@ -1,0 +1,8 @@
+command_id: D016.1EC68E80.22EE8C|ta=34,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_CHG_SOCKET_LOCKED: UNLOCKED
+  response: 1EC68E800462EE8C01
+- expected_values:
+    XC90_CHG_SOCKET_LOCKED: LOCKED
+  response: 1EC68E800462EE8C02
