@@ -1,0 +1,11 @@
+command_id: D016.1EC60E80.220341|ta=30,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_BOOST_AIR_T: -2.5
+  response: 1EC60E80046203413C
+- expected_values:
+    XC90_BOOST_AIR_T: -1.875
+  response: 1EC60E80046203413D
+- expected_values:
+    XC90_BOOST_AIR_T: -1.25
+  response: 1EC60E80046203413E

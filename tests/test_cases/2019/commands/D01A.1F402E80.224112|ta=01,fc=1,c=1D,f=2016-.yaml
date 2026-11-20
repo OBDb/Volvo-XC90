@@ -1,0 +1,14 @@
+command_id: D01A.1F402E80.224112|ta=01,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_AUXILIARY_BAT: -2
+  response: 1F402E80056241127D80
+- expected_values:
+    XC90_AUXILIARY_BAT: -1
+  response: 1F402E80056241127E80
+- expected_values:
+    XC90_AUXILIARY_BAT: 0
+  response: 1F402E80056241127F00
+- expected_values:
+    XC90_AUXILIARY_BAT: 0
+  response: 1F402E80056241127F80

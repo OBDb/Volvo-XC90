@@ -1,0 +1,14 @@
+command_id: D016.1EC62E80.222B08|ta=31,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_RL_WHL_SPD: 45
+  response: 1EC62E8004622B082D
+- expected_values:
+    XC90_RL_WHL_SPD: 63
+  response: 1EC62E8004622B083F
+- expected_values:
+    XC90_RL_WHL_SPD: 69
+  response: 1EC62E8004622B0845
+- expected_values:
+    XC90_RL_WHL_SPD: 70
+  response: 1EC62E8004622B0846
