@@ -1,0 +1,14 @@
+command_id: D016.1EC64E80.22DA89|ta=32,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_ENG_TQ: -19
+  response: 1EC64E800562DA891342
+- expected_values:
+    XC90_ENG_TQ: -18
+  response: 1EC64E800562DA89134C
+- expected_values:
+    XC90_ENG_TQ: -8
+  response: 1EC64E800562DA8913B0
+- expected_values:
+    XC90_ENG_TQ: 36
+  response: 1EC64E800562DA891568

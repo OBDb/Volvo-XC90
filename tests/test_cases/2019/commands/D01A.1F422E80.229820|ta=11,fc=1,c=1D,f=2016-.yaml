@@ -1,0 +1,14 @@
+command_id: D01A.1F422E80.229820|ta=11,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_EVAPORATOR_T_V_2: 0
+  response: 1F422E800662982000C468
+- expected_values:
+    XC90_EVAPORATOR_T_V_2: 0
+  response: 1F422E800662982000CC68
+- expected_values:
+    XC90_EVAPORATOR_T_V_2: 0
+  response: 1F422E800662982000D468
+- expected_values:
+    XC90_EVAPORATOR_T_V_2: 0
+  response: 1F422E800662982000DC68

@@ -1,0 +1,11 @@
+command_id: D016.1EC64E80.22DA47|ta=32,fc=1,c=1D,f=2016-
+test_cases:
+- expected_values:
+    XC90_GEAR_RAT_REQ: 0.809
+  response: 1EC64E800562DA470329
+- expected_values:
+    XC90_GEAR_RAT_REQ: 1
+  response: 1EC64E800562DA4703E8
+- expected_values:
+    XC90_GEAR_RAT_REQ: 3.029
+  response: 1EC64E800562DA470BD5
